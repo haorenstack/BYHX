@@ -1,0 +1,135 @@
+/* CSS Reset to remove default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.NavBar {
+    width: 100%;
+    background-color:black;
+    margin: 0;
+    padding: 0;
+}
+
+.NavBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.NavBar li {
+    float: right;
+}
+
+.NavBar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 17px 16px;
+    text-decoration: none;
+    border: none; /* Ensure no border */
+    outline: none; /* Ensure no outline */
+}
+
+.NavBar li a:hover {
+    color:darkgrey;
+}
+
+/* Clear floats */
+.NavBar::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.NavBar .BYHX{
+    float: left;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+    margin: 0px;
+    overflow: hidden;
+  }
+  
+  .image {
+    width: 40vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  
+  .image[data-status="inactive"] {
+    display: none;
+  }
+  
+  .image[data-status="active"] {
+    display: block;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.NavBar {
+    width: 100%;
+    background-color:black;
+    margin: 0;
+    padding: 0;
+}
+
+.NavBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.NavBar li {
+    float: right;
+}
+
+.NavBar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 17px 16px;
+    text-decoration: none;
+    border: none; /* Ensure no border */
+    outline: none; /* Ensure no outline */
+}
+
+.NavBar li a:hover {
+    color:darkgrey;
+}
+
+/* Clear floats */
+.NavBar::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.NavBar .LensLink{
+    float: left;
+}
+
+h1{
+    padding-top: 250px;
+    font-size: 35px;
+    color: white;
+}
